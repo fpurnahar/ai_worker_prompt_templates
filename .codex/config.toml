@@ -1,0 +1,21 @@
+# Optional project-scoped Codex config.
+# Edit model value based on your 9Router setup.
+
+model = "PROJECT"
+model_provider = "9router"
+
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+model_reasoning_effort = "medium"
+
+[windows]
+sandbox = "unelevated"
+
+[model_providers."9router"]
+name = "9Router"
+base_url = "http://127.0.0.1:20128/v1"
+wire_api = "responses"
+experimental_bearer_token = "NINE_ROUTER_API_KEY"
+request_max_retries = 1
+stream_max_retries = 1
+stream_idle_timeout_ms = 300000

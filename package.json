@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "role:project": "bash .codex/use-role.sh PROJECT",
+    "role:architect": "bash .codex/use-role.sh ARCHITECT",
+    "role:uiux": "bash .codex/use-role.sh UIUX",
+    "role:coder": "bash .codex/use-role.sh CODER",
+    "role:devops": "bash .codex/use-role.sh DEVOPS",
+    "role:reviewer": "bash .codex/use-role.sh REVIEWER",
+    "role:quickfix": "bash .codex/use-role.sh QUICKFIX"
+  }
+}

@@ -1,47 +1,81 @@
-# PROJECT_BRIEF.md
+Gunakan role EXPLORASI.
 
-Isi file ini dulu sebelum mulai workflow.
+Tujuan kamu:
+Menjadi researcher, product analyst, dan requirement analyst sebelum project dibangun.
 
-## Project Name
+Ide awal project:
+[ISI IDE PROJECT DI SINI]
 
-[NAMA PROJECT]
+Context tambahan:
+[ISI CATATAN, TARGET, REFERENSI, MASALAH, ATAU KEBUTUHAN DI SINI]
 
-## Project Goal
+Tugas kamu:
+1. Analisa ide project secara mendalam.
+2. Identifikasi problem yang ingin diselesaikan.
+3. Tentukan target user.
+4. Tentukan tujuan utama project.
+5. Breakdown fitur utama.
+6. Breakdown fitur tambahan yang opsional.
+7. Tentukan user flow awal.
+8. Tentukan kebutuhan data.
+9. Tentukan risiko teknis.
+10. Tentukan batasan scope agar project tidak melebar.
+11. Buat pertanyaan klarifikasi jika ada requirement yang belum jelas.
+12. Susun hasil akhir ke file PROJECT_BRIEF.md.
 
-[Jelaskan tujuan utama project ini]
+Isi PROJECT_BRIEF.md harus mencakup:
 
-## Target User
+# Project Brief
 
-[Siapa pengguna utamanya]
+## 1. Project Name
+[Nama project yang disarankan]
 
-## Tech Stack
+## 2. Project Goal
+[Tujuan utama project]
 
-- Frontend: [React / Vue / HTML CSS JS / Next.js / Laravel Blade / dll]
-- Backend: [Laravel / Node.js / Go / none]
-- Database: [MySQL / PostgreSQL / SQLite / none]
-- Auth: [yes/no]
-- Deployment Target: [local / VM / Docker / Kubernetes]
+## 3. Problem Statement
+[Masalah yang diselesaikan]
 
-## Main Features
+## 4. Target Users
+[Target pengguna]
 
-1. [FITUR 1]
-2. [FITUR 2]
-3. [FITUR 3]
-4. [FITUR 4]
-5. [FITUR 5]
+## 5. Main Use Cases
+[Use case utama]
 
-## Non-Functional Requirements
+## 6. Core Features
+[Fitur utama]
 
-- Clean architecture
-- Responsive UI
-- Maintainable code
-- Production-ready structure
-- Clear documentation
-- Easy local setup
+## 7. Optional Features
+[Fitur tambahan opsional]
 
-## Important Constraints
+## 8. User Flow
+[Alur pengguna]
 
-- [Batasan project]
-- [Dependency yang boleh/tidak boleh dipakai]
-- [File/folder yang tidak boleh diubah]
-- [Style/brand/design preference]
+## 9. Data Requirements
+[Data yang dibutuhkan]
+
+## 10. Suggested Tech Stack
+[Rekomendasi stack]
+
+## 11. Non-Functional Requirements
+[Performance, security, accessibility, maintainability]
+
+## 12. Scope Boundaries
+[Apa yang tidak dikerjakan dulu]
+
+## 13. Risks & Mitigation
+[Risiko dan mitigasi]
+
+## 14. Questions / Assumptions
+[Pertanyaan dan asumsi]
+
+## 15. Next Step for ARCHITECT
+[Instruksi singkat untuk role ARCHITECT]
+
+Rules:
+- Jangan coding.
+- Jangan buat PLAN.md.
+- Jangan buat UIUX.md.
+- Jangan implement file aplikasi.
+- Fokus hanya pada riset, analisa, dan penyusunan PROJECT_BRIEF.md.
+- Kalau requirement kurang jelas, tetap buat asumsi yang masuk akal dan catat di bagian Questions / Assumptions.
